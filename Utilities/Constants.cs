@@ -14,5 +14,8 @@
 
         public const string DefaultStreamProvider = "SMSProvider";
 
+        public const string kafkaService = "localhost:9092";
+        public const string zooKeeperService = "localhost:2181";
+
     }
 }

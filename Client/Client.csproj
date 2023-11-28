@@ -9,6 +9,8 @@
     </PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Confluent.Kafka" Version="2.3.0" />
+		<PackageReference Include="MessagePack" Version="2.5.129" />
 		<PackageReference Include="Microsoft.Orleans.Client" Version="7.2.3" />
 		<PackageReference Include="MathNet.Numerics" Version="5.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
