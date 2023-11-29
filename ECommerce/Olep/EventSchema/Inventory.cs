@@ -3,13 +3,13 @@
     [Serializable]
     public sealed class Inventory
     {
-        public readonly long productId;
+        public readonly long customerId;
         public readonly double price;
         public readonly int quantity;
 
-        public Inventory(long productId, double price, int quantity)
+        public Inventory(long customerId, double price, int quantity)
         {
-            this.productId = productId;
+            this.customerId = customerId;
             this.price = price;
             this.quantity = quantity;
         }
